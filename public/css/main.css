@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black; }
+
+.time {
+  font-family: 'Gajraj One', cursive;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  color: #62f3a3;
+  align-items: center;
+  font-size: 10rem;
+  text-align: center;
+  height: 100vh; }
+  .time .hour,
+  .time .minutes,
+  .time .seconds {
+    margin: 1rem;
+    min-width: 15rem;
+    border-radius: 17px;
+    box-shadow: 0 0 30px #0ae46c, 0 0 20px #07ff76 inset;
+    height: fit-content;
+    align-items: center; }
